@@ -46,6 +46,7 @@ const PriceShape = styled.div`
   background-color: crimson;
 `
 function App() {
+  const smallScreen = window.screen.width <= 480 ? true : false
   return (
     <>
       <Container>

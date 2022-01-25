@@ -2,7 +2,9 @@
 
 import styled from 'styled-components'
 import { css } from 'styled-components'
+import Contact from './components/Contact'
 import Features from './components/Features'
+import Footer from './components/Footer'
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import Price from './components/Price'
@@ -62,6 +64,10 @@ function App() {
       <Container>
         <Price />
         <PriceShape />
+      </Container>
+      <Container>
+        <Contact />
+        <Footer />
       </Container>
     </>
   )

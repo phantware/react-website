@@ -117,17 +117,17 @@ const Contact = () => {
         <AddressContainer>
           <AddressItem>
             <Icon src={Map} />
-            <Text>123 Park Avenue St., New York, USA</Text>
+            <Text>70 Queen Street, Yaba Lagos</Text>
           </AddressItem>
           <AddressItem>
             <Icon src={Phone} />
-            <Text>+1 631 1234 5678</Text>
-            <Text>+1 326 1234 5678</Text>
+            <Text>+234 8187 273154</Text>
+            <Text>+234 8023 036608 </Text>
           </AddressItem>
           <AddressItem>
             <Icon src={Send} />
-            <Text>contact@lama.dev</Text>
-            <Text>sales@lama.dev</Text>
+            <Text>phantmoney2011@gmail.com</Text>
+            <Text>ismail.jamiu19@gmail.com</Text>
           </AddressItem>
         </AddressContainer>
       </Wrapper>

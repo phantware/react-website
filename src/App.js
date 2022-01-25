@@ -60,7 +60,7 @@ function App() {
       </Container>
       <Container>
         <Service />
-        <ServiceShape />
+        {smallScreen && <ServiceShape />}
       </Container>
       <Container>
         <Price />

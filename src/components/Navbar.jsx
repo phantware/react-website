@@ -16,19 +16,25 @@ const Left = styled.div`
   align-items: center;
   justify-content: space-between;
 `
-const Right = styled.div``
 
 const Logo = styled.div`
   font-weight: bold;
   text-decoration: underline crimson;
+  font-size: 50px;
+  @media only screen and (max-width: 480px) {
+    font-size: 25px;
+  }
 `
 const Menu = styled.ul`
   display: flex;
   list-style: none;
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `
 const MenuItem = styled.li`
   margin-right: 30px;
-  font-size: 20px;
+  font-size: 2 0px;
   font-weight: bold;
   color: gray;
 `
@@ -38,8 +44,12 @@ const Button = styled.button`
   background-color: crimson;
   color: white;
   font-weight: bold;
+  font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
+  @media only screen and (max-width: 480px) {
+    font-size: 10px;
+  }
 `
 
 const Navbar = () => {

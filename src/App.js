@@ -5,6 +5,7 @@ import { css } from 'styled-components'
 import Features from './components/Features'
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
+import Price from './components/Price'
 import Service from './components/Service'
 
 const Container = styled.div`
@@ -52,6 +53,9 @@ function App() {
       <Container>
         <Service />
         <ServiceShape />
+      </Container>
+      <Container>
+        <Price />
       </Container>
     </>
   )
